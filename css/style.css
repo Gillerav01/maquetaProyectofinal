@@ -1,6 +1,6 @@
 :root {
     --primario: #37FF8B;
-    --blanco: ##FFFAFB;
+    --blanco: #FFFAFB;
     --negro: #231123;
     --terciario: #7A82AB;
     --auxiliar: #475841;
@@ -9,4 +9,44 @@
 
 * {
     font-family: var(--fuentePrimaria);
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--negro);
+}
+
+header .logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+header .logo a img {
+    width: 30%;
+}
+
+header {
+    background: var(--primario);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+header nav li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--negro);
+    border: 1px solid var(--auxiliar);
+    padding: 1vh 3vw;
+    background-color: var(--blanco);
 }
