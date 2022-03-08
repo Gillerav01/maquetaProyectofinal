@@ -1,3 +1,5 @@
+/* Inicio de reglas generales */
+
 :root {
     --primario: #37FF8B;
     --blanco: #FFFAFB;
@@ -12,10 +14,18 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1 {
     font-size: 2rem;
     color: var(--negro);
 }
+
+/* Fin de reglas generales */
+
+/* Inicio de reglas generales para header */
 
 header .logo a {
     text-decoration: none;
@@ -50,3 +60,101 @@ header nav li a {
     padding: 1vh 3vw;
     background-color: var(--blanco);
 }
+
+/* Fin de reglas generales para header */
+
+/* Inicio reglas generales para el footer */
+
+footer {
+    background: var(--primario);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fin de reglas generales para el footer */
+
+/* index.html */
+
+.registro {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 4vh;
+}
+
+.registro-menu {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: rgba(255, 255, 255, .7);
+    width: 50vw;
+    height: 40vh;
+    padding: 10vh;
+}
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+form div input {
+    padding: 1rem;
+}
+
+form input[type="submit"]{
+    color: #231123;
+    font-size: 1rem;
+    padding: 1vh;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    border: solid #000000 2px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    width: 10vw;
+    margin-top: 1vh;
+    align-self: center;
+}
+
+form input[type="submit"]{
+    cursor: pointer;
+}
+
+.registrarse p {
+    font-size: 1.5rem;
+    color: var(--negro);
+}
+
+.nosotros {
+    width: 100vw;
+    padding: 2vw;
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ubicacion iframe{
+    width: 98%;
+}
+
+/* Fin de index.html*/
