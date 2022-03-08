@@ -34,22 +34,25 @@
             <li class="enlace"><a href="logueo.html" class="hvr-grow-shadow">Registro / inicio de sesion</a></li>
         </nav>
     </header>
-    <main>
+    <main class="main-logueo">
         <section class="logueo">
-            <form action="#">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario">
-                <input type="password" name="password" id="password" placeholder="Contraseña del usuario">
-                <input type="submit" name="submit" id="submit" value="Iniciar sesión">
+            <form action="#" class="formularioLogueo">
+                <div>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario">
+                    <input type="password" name="password" id="password" placeholder="Contraseña del usuario">
+                </div>
+                <input type="submit" name="submit" id="submit" value="Iniciar sesión" class="hvr-grow-shadow">
             </form>
         </section>
-        <section class="registro">
-            <form action="#">
+        <section class="registroLogueo">
+            <form action="#" class="formularioRegistro">
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre">
                 <input type="text" name="apellidos" id="apellido" placeholder="Apellidos">
                 <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
                 <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario">
                 <input type="tel" name="telefono" id="telefono" placeholder="Número de teléfono">
-                <input type="submit" name="submit" id="submit" value="Registrar">
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+                <input type="submit" name="submit" id="submit" value="Registrar" class="hvr-grow-shadow">
             </form>
         </section>
     </main>
