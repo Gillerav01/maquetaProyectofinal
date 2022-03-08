@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logueo</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/main.js"></script>
 </head>
+
 <body>
-    
+    <nav class="navegador" id="navegador">
+        <li class="enlace"><a href="index.html">Inicio</a></li>
+        <li class="enlace"><a href="mascotas.html">Mascotas</a></li>
+        <li class="enlace"><a href="mercado.html">Tienda</a></li>
+        <li class="enlace"><a href="perdidos.html">Perdidos</a></li>
+        <li class="enlace"><a href="chat.html">Chat</a></li>
+        <li class="enlace"><a href="contacto.html">Asistencia tecnica</a></li>
+        <li class="enlace"><a href="logueo.html">Registro / inicio de sesion</a></li>
+    </nav>
+    <main>
+        <section class="logueo">
+            <form action="#">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario">
+                <input type="password" name="password" id="password" placeholder="Contraseña del usuario">
+                <input type="submit" name="submit" id="submit" value="Iniciar sesión">
+            </form>
+        </section>
+        <section class="registro">
+            <form action="#">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="text" name="apellidos" id="apellido" placeholder="Apellidos">
+                <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
+                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario">
+                <input type="tel" name="telefono" id="telefono" placeholder="Número de teléfono">
+                <input type="submit" name="submit" id="submit" value="Registrar">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer">&copy; Guillermo Illera Vinatea - Calle emperador, Portal 43, Piso 4ºB</p>
+    </footer>
 </body>
+
 </html>
