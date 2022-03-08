@@ -1,0 +1,12 @@
+:root {
+    --primario: #37FF8B;
+    --blanco: ##FFFAFB;
+    --negro: #231123;
+    --terciario: #7A82AB;
+    --auxiliar: #475841;
+    --fuentePrimaria: 'Ubuntu';
+}
+
+* {
+    font-family: var(--fuentePrimaria);
+}
