@@ -28,6 +28,25 @@ textarea {
     padding: 2vh;
 }
 
+button {
+    color: #231123;
+    font-size: 1rem;
+    padding: 1vh;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    border: solid #000000 2px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    width: 10vw;
+    margin-top: 1vh;
+    align-self: center;
+}
+
 /* Fin de reglas generales */
 
 /* Inicio de reglas generales para header */
@@ -303,7 +322,7 @@ footer {
 }
 
 /* Fin de contacto.html */
-/* Inicio de contacto.html*/
+/* Inicio de logueo.html*/
 
 .main-logueo {
     display: flex;
@@ -385,4 +404,56 @@ footer {
     cursor: pointer;
 }
 
-/* Fin de contacto.html*/
+/* Fin de logueo.html*/
+/* Inicio de mascota.html */
+
+.main-mascota {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    padding: 3vh;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.info-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-dueño {
+    width: 75%;
+}
+
+.info-mascota {
+    padding: 5vh;
+}
+
+/* Fin de mascota.html */
+/* Inicio de objeto.html */
+
+.main-objeto {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    padding: 3vh;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.info-general-objeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-dueño {
+    width: 60%;
+}
+
+.info-objeto {
+    padding: 5vh;
+}
+
+/* Fin de objeto.html */
