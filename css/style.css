@@ -40,8 +40,6 @@ button {
     -moz-box-shadow: 0px 1px 3px #666666;
     box-shadow: 0px 1px 3px #666666;
     border: solid #000000 2px;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-    background: -moz-linear-gradient(top, #ffffff, #ffffff);
     width: 10vw;
     margin-top: 1vh;
     align-self: center;
